@@ -1,0 +1,55 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+    background: #202020;
+    color: #ffffff;
+    font-family: Consolas, monospace;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.red { color: #dc322f; }
+.yellow { color: #b58900; }
+.green { color: #859900; }
+.blue { color: #268bd2; }
+.magenta { color: #d33682; }
+.white { color: #ffffff; }
+.black { color: #4f545c; }
+
+#codeInput {
+    background: #404040;
+    font-family: Consolas, monospace;
+    color: #ffffff;
+    
+    width: 30vw;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+#codeInput:focus {
+    outline: none;
+    background: #606060;
+}
+#run {
+    background: #404040;
+    font-family: Consolas, monospace;
+    color: #ffffff;
+    
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+
+    cursor: pointer;
+}
+#run:hover {
+    background: #606060;
+}
+.small {
+    font-size: 10px;
+}
