@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    overflow: hidden;
 
     background: #202020;
     color: #ffffff;
@@ -52,4 +53,26 @@ html, body {
 }
 .small {
     font-size: 10px;
+}
+
+#output {
+    max-width: 90vw;
+    overflow-wrap: break-word;
+}
+
+
+#copy {
+    background: #404040;
+    font-family: Consolas, monospace;
+    color: #ffffff;
+    
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+
+    cursor: pointer;
+}
+#copy:hover {
+    background: #606060;
 }
